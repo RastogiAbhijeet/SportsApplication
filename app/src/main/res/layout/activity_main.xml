@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/app_theme_orange"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <TableLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+
+    android:background="@color/white"
+    android:layout_marginTop="30dp"
+                 android:layout_marginBottom="30dp"
+                 android:layout_marginLeft="20dp"
+                 android:layout_marginRight="20dp"
+                 android:paddingTop="10dp"
+        >
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="182dp"
+        app:srcCompat="@drawable/collegelogo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+
+    <EditText
+    android:id="@+id/username_field"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:fontFamily="sans-serif"
+    android:hint="Username"
+    android:inputType="textPersonName"
+    android:selectAllOnFocus="true"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:typeface="normal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"/>
+
+<EditText
+    android:id="@+id/password_field"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:fontFamily="sans-serif"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    android:typeface="normal"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+   />
+        <TextView
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:text="We have kept it simple but if you haven't registered Yet ! Please Do !!"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Register"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        />
+
+        <TextView
+            android:textSize="10sp"
+            android:textAlignment="center"
+            android:text="We won't ask for your Aadhar Card Number"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            />
+
+    </TableLayout>
+
+</ScrollView>

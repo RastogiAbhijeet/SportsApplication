@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        tools:context="com.ccet.hp.sportsapplication.Student_Event_Reg"
+        android:padding="5dp">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:text="Event Registration"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="italic"/>
+
+
+            <TextView
+                android:id="@+id/athleticInter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Select Athletic Meet -OR- InterYear"
+                android:textAllCaps="true"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"/>
+
+        <Spinner
+            android:id="@+id/inter_athletic_spinner"
+            style="@style/Widget.AppCompat.Spinner.Underlined"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:elevation="4dp"
+            android:entries="@array/event_type_entries"
+            android:spinnerMode="dialog"
+            android:visibility="visible"/>
+
+        <TextView
+            android:text="Please select any 5 events and press on register\n(And just click on the blue bars given below in case you were wondering)"
+            android:textSize="12dp"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <Spinner
+            android:id="@+id/eventlist_one"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@color/app_theme_orange"
+            android:elevation="4dp"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/eventlist_two"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@color/app_theme_orange"
+            android:elevation="4dp"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Spinner
+            android:id="@+id/eventlist_three"
+            android:background="@color/app_theme_orange"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:elevation="4dp"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/eventlist_four"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@color/app_theme_orange"
+            android:elevation="4dp"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+        <Spinner
+            android:id="@+id/eventlist_five"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:background="@color/app_theme_orange"
+            android:elevation="4dp"
+            android:spinnerMode="dialog"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+
+
+
+        <Button
+            android:id="@+id/button_registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="15dp"
+            android:text="Register"
+            />
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="In Case You have any query.. :)\nContact the Sports Incharge"/>
+
+        <ImageView
+            android:src="@drawable/schedule"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+
+    </TableLayout>
+
+</ScrollView>

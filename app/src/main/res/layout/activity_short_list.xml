@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ccet.hp.sportsapplication.ShortList"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TableLayout
+        android:id="@+id/tableLayout_shortList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp">
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Boys/Girls :"
+        />
+
+        <Spinner
+            android:id="@+id/spinner_short_list"
+            android:layout_width="382dp"
+            android:layout_height="36dp"
+            android:entries="@array/gender_entries"
+            />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Event :"/>
+
+    <Spinner
+        android:id="@+id/spinner_event_shortlist"
+        android:layout_width="382dp"
+        android:layout_height="32dp"
+        />
+
+    <Button
+        android:id="@+id/shortList_get_names"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Select Event"
+        />
+
+        <ListView
+            android:padding="5dp"
+            android:id="@+id/candidateList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout_shortList"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            />
+
+        <Button
+            android:id="@+id/update_shortlist"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textAlignment="center"
+            android:text="Update Result"
+            />
+
+    </TableLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

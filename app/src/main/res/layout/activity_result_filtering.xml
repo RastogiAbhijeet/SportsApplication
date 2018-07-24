@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:nestedScrollingEnabled="true"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.ccet.hp.sportsapplication.RegisterationStudent"
+        android:weightSum="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/gender_result_filtering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Gender"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@android:color/background_dark"
+            android:textColor="@color/white"
+            android:padding="10sp"/>
+
+        <ListView
+            android:id="@+id/genderCheck"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+            />
+
+        <TextView
+            android:id="@+id/event_result_filtering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Event"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@android:color/background_dark"
+            android:textColor="@color/white"
+            android:padding="10sp"/>
+
+    <ListView
+        android:id="@+id/event_selection_check"
+        android:layout_marginTop="5dp"
+        android:layout_height="200dp"
+        android:layout_width="match_parent"
+        android:nestedScrollingEnabled="true"
+        />
+
+        <TextView
+            android:id="@+id/position_result_filtering"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Position"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:background="@android:color/background_dark"
+            android:textColor="@color/white"
+            android:padding="10sp"/>
+
+        <ListView
+            android:id="@+id/position_selection_check"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:nestedScrollingEnabled="true"
+            />
+
+        <Button
+            android:id="@+id/getReport"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="@color/app_theme_orange"
+            android:textColor="@color/white"
+            android:text="Get Report"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please press the button to Generate Report"
+            android:textAlignment="center"
+            />
+
+</TableLayout>
+</ScrollView>

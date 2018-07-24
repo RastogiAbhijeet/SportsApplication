@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/SNoNotices"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_margin = "5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="TextView"
+
+
+            android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/NoticeNames"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="TextView"
+        android:layout_weight="0.88"/>
+
+    <Button android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="DOWNLOAD"
+                android:id="@+id/downloadNotices"
+                android:layout_margin="5dp"
+            />
+
+</LinearLayout>

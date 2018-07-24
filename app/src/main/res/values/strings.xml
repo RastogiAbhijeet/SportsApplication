@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">SportsApplication</string>
+
+    <string name="certificatedownload">
+        \tSteps to Download the certificate\n\n
+        1. Select the Event \n
+        2. If you have Earned a position in an event
+        \n\t \tthen click on the Download Button \n
+        3. The certificate will be downloaded in the location : \n
+          --- InternalStorage/Downloads/Certificates
+    </string>
+
+    <string-array name="event_list_male">
+        <item> </item>
+        <item>100 m</item>
+        <item>1500 m</item>
+        <item>200 m</item>
+        <item>400 m</item>
+        <item>3000 m</item>
+        <item>5000 m</item>
+        <item>100 m Hurdle</item>
+        <item>800 m</item>
+        <item>400 m Hurdle</item>
+        <item>4x100 relay</item>
+        <item>Long Jump</item>
+        <item>Discuss Throw</item>
+        <item>Pole Vault</item>
+        <item>Hammer Throw</item>
+        <item>Shot Put</item>
+        <item>Triple Jump</item>
+        <item>Javlin Throw</item>
+        <item>High jump</item>
+    </string-array>
+
+    <string-array name="event_list_female">
+        <item> </item>
+        <item>100 m</item>
+        <item>1500 m</item>
+        <item>200 m</item>
+        <item>400 m</item>
+        <item>100 m Hurdle</item>
+        <item>4x100 relay</item>
+        <item>Long Jump</item>
+        <item>Discuss Throw</item>
+        <item>Hammer Throw</item>
+        <item>Shot Put</item>
+        <item>Javlin Throw</item>
+        <item>High jump</item>
+    </string-array>
+
+    <string-array name="event_list_inter_year">
+        <item> </item>
+        <item>Cricket</item>
+        <item>Basketball</item>
+        <item>Chess</item>
+        <item>Badminton</item>
+        <item>Table tennis</item>
+        <item>Volleyball</item>
+        <item>Football</item>
+        <item>Handball</item>
+    </string-array>
+
+
+    <string-array name="gender_entries">
+        <item> </item>
+        <item>Boy</item>
+        <item>Girl</item>
+    </string-array>
+
+    <string-array name="position_entries">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="semester_entries">
+        <item> </item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="branch_entries">
+        <item> </item>
+        <item>CSE</item>
+        <item>CIVIL</item>
+        <item>MECH</item>
+        <item>ECE</item>
+        <item>ELECT</item>
+        <item>PROD</item>
+        <item>ARCH</item>
+    </string-array>
+
+    <string-array name="type_entries">
+        <item> </item>
+        <item>Degree</item>
+        <item>Diploma</item>
+    </string-array>
+
+    <string-array name="event_type_entries">
+        <item> </item>
+        <item>Athletic Meet</item>
+        <item>Inter Year</item>
+    </string-array>
+
+    <string name="oath">Oath : \nWe swear that we shall take part in the 57th  Annual Athletic Meet (For Diploma Stream) and 16th Annual Athletic Meet (For Degree Stream) of Chandigarh College of Engineering &amp; Technology, in fair competition respecting the regulations which govern them and with the desire to participate in them in true spirit of sportsmanship for the honour of Chandigarh College of Engineering &amp; Technology, and for the glory of sports.</string>
+
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>

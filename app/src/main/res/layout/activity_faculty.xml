@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ccet.hp.sportsapplication.FacultyActivity"
+    >
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="396dp"
+        android:layout_height="398dp"
+        android:layout_marginBottom="480dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="0dp"
+            android:layout_height="39dp"
+            android:text="Faculty Login"
+            android:textAlignment="center"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="327dp"
+            android:layout_height="134dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/profile"/>
+
+
+
+
+            <Button
+                android:id="@+id/buttondownloadresult"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:text="Download Result "/>
+
+            <Button
+                android:id="@+id/report_faculty"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Update Results"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/shortList"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Short List Players"
+                android:layout_marginTop="10dp"
+                />
+
+            <Button
+                android:id="@+id/faculty_download_notice"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Download Notices"
+                android:layout_marginTop="10dp"
+                />
+
+
+
+    </TableLayout>
+
+
+</android.support.constraint.ConstraintLayout>
